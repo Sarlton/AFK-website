@@ -1,0 +1,26 @@
+
+
+#homePage {
+    background-color: aqua;
+    /* width: 100%; */
+}
+
+.aboutUs {
+    background-color: limegreen;
+    height: 650px;
+}
+
+.games {
+    background-color: purple;
+    height: 650px;
+}
+
+.contactUs {
+    background-color: orange;
+    height: 650px;
+}
+
+.footer {
+    background-color: black;
+    height: 200px;
+}
