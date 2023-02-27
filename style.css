@@ -5,9 +5,49 @@
     /* width: 100%; */
 }
 
+.aboutUs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
 .aboutUs {
     background-color: limegreen;
     height: 650px;
+}
+.aboutUs-text h2{
+    font-size: var(--h2-font);
+    font-weight: 500;
+    margin: 8px 0px 25px;
+    line-height: 1.1;
+}
+.aboutUs-text h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.aboutUs-text p{
+    max-width: 550px;
+    font-size: var(--p-font);
+    color: var(--secound-color);
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(128, 103, 240, 1);
+    font-size: 17px;
+    color: var(--bg-color);
+    margin-right: 22px;
+    margin-bottom: 30px;
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: var(--main-color);
+    transition: .5s;
 }
 
 .games {
@@ -18,6 +58,27 @@
 .contactUs {
     background-color: orange;
     height: 650px;
+}
+.contact .action form input[type="email"] {
+    max-width: 100%;
+    width: 470px;
+    padding: 12px 15px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+}
+.contact .action form input[type="submit"] {
+    width: 470px;
+    padding: 12px 15px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
 }
 
 .footer {
