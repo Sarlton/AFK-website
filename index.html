@@ -1,39 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
-  <title>AFK</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cbea4e8e16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=divce-width, initial-scale=1">
+        <title>AFK</title>
 </head>
 
 <body>
-  <nav>
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Games</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </nav>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item; outer button">
+              <a class="nav-link active" aria-current="page" href="#homePage"><button>Home</button>
+                <span></span></a>
+            </li>
+            <li class="nav-item; outer button">
+              <a class="nav-link" href="#aboutUs"><button>About</button>
+                <span></span></a>
+            </li>
+            <li class="nav-item; outer button">
+              <a class="nav-link" href="#"><button>Games</button>
+                <span></span></a>
+            </li>
+
+            <li class="nav-item; outer button">
+              <a class="nav-link" href="#team"><button>Our Team</button>
+                <span></span></a>
+            </li>
+
+            <li class="nav-item; outer button">
+                <a class="nav-link" href="#"><button>Contact</button>
+                  <span></span></a>
+              </li>
+          </ul>
+    </nav>
 
 
   <br>
 
   <main id="homePage">
-    <!-- <img src="./asserts/img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg" width="100%" height="650px" alt=""> -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -66,14 +81,12 @@
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-        <span class="visually-hidden">Next</span>
       </button>
     </div>
   </main>
   <br>
 
-  <div class="aboutUs">
-
+  <!-- <div class="aboutUs">
     <div class="card mb-4">
       <div class="row">
         <div class="text-center">
@@ -106,7 +119,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <h1>About AFK</h1>
     <h1>About A.F.K</h1>
@@ -126,13 +139,142 @@
       <a href="#"><i class='bx bxl-github'></i></a>
     </div>
   </div> -->
-  <br>
+  <!-- <br> -->
 
 
-  <div class="games">
+  <!-- <div class="games">
     <div class="text-center">
       <h3>Top 10 Games</h3>
-    </div>
+
+
+
+    <br>
+
+    <main id="homePage">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./asserts/img/erik-mclean-qgInQSplXBU-unsplash.jpg" class="d-block" style="width: 100%; height: 680px; object-fit: cover;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./asserts/img/batu-gezer-1HcNgs3RrKE-unsplash.jpg" class="d-block" style="width: 100%; height: 680px; object-fit: cover;"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./asserts/img/mobile-gaming-header_efb6.png" class="d-block" style="width: 100%; height: 680px; object-fit: cover;"  alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              <!-- <span class="visually-hidden">Next</span> -->
+            <!-- </button>
+          </div>
+    </main>  -->
+    <br>
+
+    <section id="aboutUs">
+      <h1 class="glowing-text">About AFK</h1>
+         <h1 class="glowing-text" >About A.F.K</h1>
+          <h3 class="glowing-text"> A.K.F-Away From the Keyboard. It is an interactive gaming platform aimed at informing, 
+                entertaining and creating awareness about the gaming.</h3>
+           <p class="glowing-text">Being part of the AFKrian squad gives access to exclusive gaming content in the southern hemisphere,
+                while staying updated with latest and trendy gaming tech to stand out from the crowd. If you don't want to be left 
+                behind, just click on the sign up botton, register your email and you will get all notification on everything GAMING!!!<p>
+            <a href="#" class="btn">Sign up</a>
+            <div class="social">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+    </section>
+    <br>
+
+    <section id="team" class="glowing-text">
+      <div class="container">
+        <h1 class="head">OUR TEAM</h1>
+        <div class="row">
+          <div class="col-md-3 profile text-center">
+            <div class="img-box">
+              <img src="asserts/img/20220404_1323144221(2).png" alt="" class="img-responsive">
+              <ul>
+                
+                <a href="#"><li><i class="fa-brands fa-square-facebook"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-square-twitter"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-linkedin"></i></li></a>
+              </ul>
+            </div>
+            <h2>Sarlton Ngubane</h2>
+            <h3>Team Lead</h3>
+            <p>Lead developer assists with team tasks of the project and foresees job satisfaction.</p>
+          </div>
+
+          <div class="col-md-3 profile text-center">
+            <div class="img-box">
+              <img src="asserts/img/IMG-20230227-WA0004.png" alt="" class="img-responsive">
+              <ul>
+                
+                <a href="#"><li><i class="fa-brands fa-square-facebook"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-square-twitter"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-linkedin"></i></li></a>
+              </ul>
+            </div>
+            <h2>Letlhogonolo "Tlhogi" Moroke</h2>
+            <h3>Senior Developer</h3>
+            <p>Responsible for the coding style and full development of the website.</p>
+          </div>
+
+          <div class="col-md-3 profile text-center">
+            <div class="img-box">
+              <img src="asserts/img/img2023.png" alt="" class="img-responsive">
+              <ul>
+                
+                <a href="#"><li><i class="fa-brands fa-square-facebook"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-square-twitter"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-linkedin"></i></li></a>
+              </ul>
+            </div>
+            <h2>Mahlatse Serathi</h2>
+            <h3>Lead Designer</h3>
+            <p>Responsible for the designs and graphic implementations of the website.</p>
+          </div>
+
+          <div class="col-md-3 profile text-center">
+            <div class="img-box">
+              <img src="asserts/img/img20232.png" alt="" class="img-responsive">
+              <ul>
+                
+                <a href="#"><li><i class="fa-brands fa-square-facebook"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-square-twitter"></i></li></a>
+                <a href="#"><li><i class="fa-brands fa-linkedin"></i></li></a>
+              </ul>
+            </div>
+            <h2>Neo Ramoroka</h2>
+            <h3>Lead Designer</h3>
+            <p>Responsible for the designs and graphic implementations of the website.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+   
+
+    <br>
+
+    <div id="games">
+      <h1 class="glowing-text">Games</h1>
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -250,10 +392,63 @@
       </button>
     </div>
   </div>
+
   <br>
 
-  <div class="contactUs">
-    <!-- <h1>Contact AFK</h1> -->
+  <div id="contact">
+    <h1 class="glowing-text">Contact AFK</h1>
+      <div class="container">
+              <form action="action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">First Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Last Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+              </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="Province">Province</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="Province" name="Province">
+                      <option value="gauteng">Gauteng</option>
+                      <option value="north-west">North-West</option>
+                      <option value="northern cape">Northern</option>
+                      <option value="western cape">Western Cape</option>
+                      <option value="estern cape">Estern Cape</option>
+                      <option value="free state">Free State</option>
+                      <option value="kwa-zulu-natal">Kwa-Zulu-Natal</option>
+                      <option value="mpumalanga">Mpumalanga</option>
+                      <option value="limpopo">Limpopo</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="subject">Subject</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+              </form>
+            </div>
+  </div>
+
+  <!-- <div class="contactUs">
     <div class="mt-1 conatiner">
       <form action="#" id="form"></form>
       <div class="text-center">
@@ -285,7 +480,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
   <!-- <div class="container">
       <form action="action_page.php">
         <div class="row">
@@ -348,16 +544,25 @@
 
   <br>
 
-  <footer class="footer">
-    <h1>Footer</h1>
-  </footer>
+    <a href="#" class="to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
 
+    <footer class="footer">
+    </footer>
+      <ul>
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+     </ul>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <script src="index.js"></script>    
 </body>
 
 </html>
