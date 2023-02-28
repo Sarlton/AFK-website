@@ -5,13 +5,13 @@
     /* width: 100%; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .aboutUs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-.aboutUs {
-    background-color: limegreen;
-    height: 650px;
 }
 .aboutUs-text h2{
     font-size: var(--h2-font);
@@ -84,4 +84,134 @@
 .footer {
     background-color: black;
     height: 200px;
+}
+
+
+/* styling for the team members section */
+
+#team {
+    margin: 75px 0;
+}
+
+.head {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.head::after {
+    content: '';
+    background: #333;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.profile {
+    margin-top: 25px;
+}
+
+.profile .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+.profile h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+
+.img-box:after{
+    content: '';
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+
+}
+
+.img-box ul {
+    margin: 0;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+
+.img-box ul li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 7px;
+    display: inline-block;
+}
+
+.img-box a {
+    color: #fff;
+}
+
+.img-box:hover::after {
+    opacity: 1;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+}
+
+.img-box a:hover li {
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.img-box:after, .img-box ul, .img-box ul li {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+/* styling the scroll to top button */
+
+.to-top{
+    background: #7370F1;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
 }
