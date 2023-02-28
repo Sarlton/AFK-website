@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,body{
   display: grid;
   height: 100%;
@@ -101,19 +106,23 @@ html,body{
   /* width: 100%; */
 }
 
-.aboutUs{
+html {
+    scroll-behavior: smooth;
+}
+
+#aboutUs{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.aboutUs {
+#aboutUs {
   background-color: black;
   height: 650px;
 }
-.aboutUs-text h2{
-    font-size: var(--h2-font);
-    font-weight: 500;
-    margin: 8px 0px 25px;
-    line-height: 1.1;
+#aboutUs-text h2{
+  font-size: var(--h2-font);
+  font-weight: 500;
+  margin: 8px 0px 25px;
+  line-height: 1.1;
 }
 .aboutUs-text h3{
     color: var(--main-color);
